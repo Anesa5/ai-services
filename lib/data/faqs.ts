@@ -1,0 +1,12 @@
+export const homepageFaqs = [
+    { q: "What AI automation services do you offer?", a: "We design and build AI-powered automation across customer service, sales operations, lead management, document processing, and internal workflows — tailored to how your business actually operates." },
+    { q: "How do AI chatbots work, and are they safe to deploy?", a: "Our chatbots are trained on your content using retrieval-augmented generation, so responses stay grounded in your data. We include guardrails, human handoff, and access controls appropriate for your use case." },
+    { q: "What are AI voice agents used for?", a: "AI voice agents handle inbound and outbound calls for appointment scheduling, lead qualification, call routing, and support — integrated with your CRM and calendar." },
+    { q: "Can you integrate with our existing CRM?", a: "Yes. We commonly integrate with HubSpot, Salesforce, Zoho, and Pipedrive, and can build custom integrations through APIs for other systems." },
+    { q: "Do you build custom websites, or use templates?", a: "We build custom, performance-focused websites using modern frameworks. Every site is designed to convert and engineered for long-term maintainability." },
+    { q: "What is included in mobile app development?", a: "iOS, Android, and cross-platform apps covering UI/UX design, front-end and back-end development, API integrations, and ongoing maintenance." },
+    { q: "What is Generative Engine Optimization (GEO)?", a: "GEO is the practice of optimizing content so it's accurately surfaced and cited by AI-powered search experiences such as Google AI Overviews, ChatGPT, and other LLM-driven discovery tools — alongside traditional SEO." },
+    { q: "How long do projects typically take?", a: "Most engagements run 4–12 weeks depending on scope. Smaller automation builds can go live in weeks, while larger custom platforms require longer timelines." },
+    { q: "How is pricing determined?", a: "Pricing is scoped per project based on complexity, integrations, and timeline. We provide a clear proposal after an initial consultation so there are no surprises." },
+    { q: "Do you offer ongoing support after launch?", a: "Yes. We offer ongoing optimization, monitoring, and enhancement retainers for AI systems, websites, and applications." },
+];
