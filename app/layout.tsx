@@ -14,16 +14,14 @@ export const metadata: Metadata = {
     default: "Aurelius AI — AI Automation & Technology Agency",
     template: "%s | Aurelius AI",
   },
-  description:
-    "We help ambitious US businesses harness AI, intelligent automation, and modern technology to simplify operations, generate leads, and accelerate growth.",
+  description: "We help ambitious US businesses harness AI, intelligent automation, and modern technology to simplify operations, generate leads, and accelerate growth.",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: siteConfig.url,
     siteName: siteConfig.name,
     title: "Aurelius AI — AI Automation & Technology Agency",
-    description:
-      "Premium AI automation, custom software, and growth technology for US businesses.",
+    description: "Premium AI automation, custom software, and growth technology for US businesses.",
   },
   twitter: {
     card: "summary_large_image",
@@ -35,7 +33,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${manrope.variable} ${jakarta.variable}`}>
+    <html lang="en" className={`${manrope.variable} ${jakarta.variable}`} data-scroll-behavior="smooth">
       <body className="bg-cream-light text-charcoal font-sans antialiased">
         <Navbar />
         <main id="main">{children}</main>

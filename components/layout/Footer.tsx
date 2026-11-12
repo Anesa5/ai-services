@@ -9,7 +9,6 @@ export default function Footer() {
             <div className="container-editorial py-16">
                 <div className="grid gap-12 lg:grid-cols-[1.5fr_1fr_1fr_1fr]">
 
-                    {/* Brand Col */}
                     <div>
                         <div className="flex items-center gap-2.5 font-display text-lg font-bold text-cream-light">
                             <span className="grid h-8 w-8 place-items-center rounded-md bg-burgundy text-sm text-white">A</span>
@@ -29,7 +28,6 @@ export default function Footer() {
                         </div>
                     </div>
 
-                    {/* Services Col */}
                     <div>
                         <div className="text-xs font-semibold uppercase tracking-[0.18em] text-cream-light/50">Services</div>
                         <ul className="mt-4 space-y-2.5 text-sm">
@@ -41,7 +39,6 @@ export default function Footer() {
                         </ul>
                     </div>
 
-                    {/* Industries Col */}
                     <div>
                         <div className="text-xs font-semibold uppercase tracking-[0.18em] text-cream-light/50">Industries</div>
                         <ul className="mt-4 space-y-2.5 text-sm">
@@ -53,7 +50,6 @@ export default function Footer() {
                         </ul>
                     </div>
 
-                    {/* Company Col */}
                     <div>
                         <div className="text-xs font-semibold uppercase tracking-[0.18em] text-cream-light/50">Company</div>
                         <ul className="mt-4 space-y-2.5 text-sm">
@@ -66,9 +62,9 @@ export default function Footer() {
                     </div>
                 </div>
 
-                {/* Bottom Bar */}
                 <div className="mt-14 flex flex-col items-start justify-between gap-3 border-t border-cream-light/10 pt-6 text-xs text-cream-light/50 sm:flex-row sm:items-center">
-                    <div>&copy; {new Date().getFullYear()} {siteConfig.name}. All rights reserved.</div>
+                    {/* FIXED DATE ERROR */}
+                    <div>&copy; 2026 {siteConfig.name}. All rights reserved.</div>
                     <div>United States</div>
                 </div>
             </div>
